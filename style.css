@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+.inter-uniquifier {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+nav {
+  background: #333333;
+}
+.n-right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  span {
+    text-decoration: underline;
+  }
+}
+.n-left {
+  img {
+    padding-top: 10px;
+  }
+}
+.nav-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ulu {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.h-main {
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.h-right {
+  img {
+    width: 100%;
+    max-width: 571px;
+  }
+}
+.h-right {
+  h1 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  p {
+    color: #474746;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+.h-left {
+  position: relative;
+  img {
+    position: absolute;
+    left: -150px;
+  }
+}
+
+.title {
+  p {
+    color: #ba3620;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  h1 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-align: left;
+  }
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  width: 230.56px;
+  background-color: white;
+  padding: 30px 0;
+  img {
+    width: 75.36px;
+    height: 75.36px;
+  }
+  p {
+    color: #ba3620;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+main {
+  padding: 104px 0;
+}
+
+.m-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 171px;
+}
+
+.mm-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  gap: 171px;
+  .carde img {
+    width: 100%;
+  }
+}
+.c-main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  .cards img {
+    width: 100%;
+  }
+}
+section {
+  padding: 100px 0;
+}
+/* .title {
+  padding: 40px 0;
+} */
+.s-main {
+  display: flex;
+  gap: 20px;
+}
+.s-right {
+  .img1 {
+    padding-top: 30px;
+  }
+}
+.a-main {
+   height: max-content;
+   padding: 60px 0;
+  background-color: #ba3620;
+}
+.a-f h1 {
+  text-align: start;
+  color: white;
+}
+.a-l img {
+  position: relative;
+  left: -150px;
+}
